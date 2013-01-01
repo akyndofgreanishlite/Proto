@@ -36,4 +36,6 @@ For complete usage examples, refer to the <a href="http://adamwhitcroft.com/prot
 | not-phone | Defines an element that will be visible on everything but phones |
 | -demo | Visually demonstrates that an element will be hidden without hiding it |
 | -to- | Defines a change in an element's size depending on the viewport |
-
+| first | Create a column(s) with a column space of padding on the left. |
+| only | Create a lone column on the right. |
+| firstOnly | Create a column with one column space of padding on the left, and clear to the right. |
