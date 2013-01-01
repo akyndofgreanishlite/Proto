@@ -1,0 +1,119 @@
+// This is where all of the layout modifications should live, anything that deviates from proto or base.
+
+/* Global */
+
+body {
+	max-width: 1140px;
+	@include opentype;
+
+	&.center {
+		p {
+			text-align: left;
+			width: 70%; //FIX: Remove this quick hack.
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+.lead {
+	font-size: 1.5rem; // 24px
+	line-height: 1.4em;
+}
+
+.inactive {
+	
+}
+
+// Page specific
+
+body.cv {
+	.bio {
+		background: $cream;
+	}
+}
+
+.project-detail {
+	h2 {
+		font-size: 1.25rem; // 21px
+		color: $black;
+	}
+}
+
+.mile-end {
+	background: #E29020;
+	color: #2A231F;
+	text-shadow: none;
+	
+
+	section {
+		background: #E29020;
+	}
+
+	h1 {	
+		text-transform: uppercase; 
+		font-weight: 200;
+		letter-spacing: .05rem;
+	}
+
+	p {
+		text-indent: 0; 
+		margin-top: 1rem;
+	}
+
+	ul li {
+		margin-top: .4rem;
+		color: #F0EEEC;
+		text-shadow: 0 1px 0 darken(#CE9C6A, 10%);
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	small {
+		color: #F0EEEC;
+		text-shadow: 0 1px 0 darken(#CE9C6A, 10%);
+	}
+}
+
+
+/* Desktop */
+
+@media (min-width: $desktopWidth) {
+	body {
+		font-size: 150%;
+		width: 70%;
+	}
+}
+
+/* Tablet Up To Desktop */
+
+@media (min-width: $tabletWidth) and (max-width: $desktopWidth - 1px) {
+	body {
+		font-size: 137.5%;
+		width: 80%;
+	}
+}
+
+/* Tablet Down To Phone */
+
+@media (max-width: $tabletWidth - 1px) {
+	body {
+		font-size: 125%;
+		width: 85%;
+	}
+}
+
+/* Phone */
+
+@media (max-width:$phoneWidth) {
+	body {
+		font-size: 100%;
+		width: 90% !important;
+
+		p {
+			width: 90% !important;
+		}
+	}
+}

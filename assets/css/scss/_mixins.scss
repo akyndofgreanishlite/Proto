@@ -1,0 +1,95 @@
+@mixin opentype () {
+	-moz-font-feature-settings: "liga=1, dlig=1"; 
+    -moz-font-feature-settings: "liga", "dlig"; /* EDIT: new syntax for FF 15+ */ 
+    -ms-font-feature-settings: "liga", "dlig"; 
+    -o-font-feature-settings: "liga", "dlig"; 
+    -webkit-font-feature-settings: "liga", "dlig"; 
+    font-feature-settings: "liga", "dlig";
+}
+
+// $colCount: 2;
+// $colSpan: 1;
+// $gutter: 4%;
+
+// $width: $colSpan * ((100% - $gutter) / $colCount);
+
+
+@mixin width($colCount: 2, $colSpan: 1, $gutter: 4%) {
+	width: $colSpan * ((100% - $gutter) / $colCount);
+}
+
+@mixin first($colCount: 2, $colSpan: 1, $gutter: 4%) {
+	margin-left: $gutter + ($colSpan * ((100% - $gutter) / $colCount));
+}
+
+@mixin only($colCount: 2, $colSpan: 1, $gutter: 4%) {
+	margin-left: 100% - ($colSpan * ((100% - $gutter) / $colCount));
+	margin-right: 0;
+}
+
+@mixin firstOnly($colCount: 2, $colSpan: 1, $gutter: 4%) {
+	margin-left: $gutter + ($colSpan * ((100% - $gutter) / $colCount));
+	margin-right: 100% - ($gutter + ($colSpan * ((100% - $gutter) / $colCount)));
+}
+
+@mixin columns($colCount: 2, $colSpan: 1, $gutter: 4%) { 
+	@include width($colCount, $colSpan, $gutter);
+
+	&.first {
+		@include first($colCount, $colSpan, $gutter);
+	}
+
+	&.only {
+		@include only($colCount, $colSpan, $gutter);
+	}
+
+	&.firstOnly {
+		@include firstOnly($colCount, $colSpan, $gutter);
+	}
+}
+
+
+
+
+// width: $colSpan * ((100% - $gutter) / $colCount);
+
+// 100% - $width
+
+// 100% - 2$width + $gutter
+
+
+// @mixin width() {$colSpan * ((100% - $gutter) / $colCount)}
+
+
+
+// @mixin name() {	
+// 	@include columns();
+// }
+
+
+// $gutter: 4%;
+
+
+
+// @mixin columns($colCount, $colSpan: 1) { 
+// 	$width: $colSpan * ((100% - $gutter) / $colCount);
+// 	width: $width;
+// }
+
+
+
+
+// @mixin first() {
+// 	@content;
+// 	$width: ($colSpan * (100% - $gutter) / $colCount);
+// 	margin-left: 100% - width;
+// }
+
+// .seventy {
+// 	$colCount: 2;
+// 	$colSpan: 1
+
+// 	@include columns();
+
+	
+// }
