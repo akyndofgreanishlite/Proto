@@ -27,93 +27,94 @@ body {
 
 // Page specific
 
-body.cv {
-	.bio {
-		background: $cream;
-	}
-}
-
-.project-detail {
-	h2 {
-		font-size: 1.25rem; // 21px
-		color: $black;
-	}
-}
-
-.mile-end {
-	background: #E29020;
-	color: #2A231F;
-	text-shadow: none;
-	
-
-	section {
-		background: #E29020;
-	}
-
-	h1 {	
-		text-transform: uppercase; 
-		font-weight: 200;
-		letter-spacing: .05rem;
-	}
-
-	p {
-		text-indent: 0; 
-		margin-top: 1rem;
-	}
-
-	ul li {
-		margin-top: .4rem;
-		color: #F0EEEC;
-		text-shadow: 0 1px 0 darken(#CE9C6A, 10%);
-
-		&:first-child {
-			margin-top: 0;
-		}
-	}
-
-	small {
-		color: #F0EEEC;
-		text-shadow: 0 1px 0 darken(#CE9C6A, 10%);
-	}
-}
 
 
-/* Desktop */
+// Desktop
 
-@media (min-width: $desktopWidth) {
+@media (min-width: $widthLg) {
 	body {
 		font-size: 150%;
 		width: 70%;
 	}
 }
 
-/* Tablet Up To Desktop */
+// Tablet Up To Desktop
 
-@media (min-width: $tabletWidth) and (max-width: $desktopWidth - 1px) {
+@media (min-width: $widthMed) and (max-width: $widthLg - 0.063em) {
 	body {
 		font-size: 137.5%;
 		width: 80%;
 	}
 }
 
-/* Tablet Down To Phone */
+// Tablet Down To Phone
 
-@media (max-width: $tabletWidth - 1px) {
+@media (max-width: $widthMed - 0.063em) {
 	body {
 		font-size: 125%;
 		width: 85%;
 	}
 }
 
-/* Phone */
+// Phone
 
-@media (max-width:$phoneWidth) {
+@media (max-width:$widthSm) {
 	body {
-		font-size: 100%;
+		font-size: 112.5%;
+		// font-size: 100%;
 		width: 90% !important;
 
 		p {
 			width: 90% !important;
 		}
 	}
+
+	h2, 
+	h3, 
+	h4, 
+	h5 {
+	    font-size: 1.875em;
+	    line-height: 1.3em;
+	}
+
+	h5 {
+	    font-size: 1.375em;
+	}
 }
+
+body {
+	
+	font-size: 100%;
+}
+
+
+
+// @media screen and (min-width: 20.000em) { // 320px
+// }@media screen and (min-width: 25.000em) { // 400px
+// }@media screen and (max-width: 37.438em) { // 599px
+// }@media screen and (min-width: 37.500em) { // 600px
+// 	body {
+// 	    font-size: 112.5%}
+// 	h2, h3, h4, h5 {
+// 	    font-size: 1.875em;
+// 	    line-height: 1.3em;
+// 	}
+// 	h5 {
+// 	    font-size: 1.375em;
+// 	}
+
+// }@media screen and (min-width: 64.375em) { // 1030px
+// 	body {
+// 	    font-size: 137.5%}
+
+// }@media screen and (min-width: 75.000em) and (min-height:31.250em) { // 1200px  and  500px
+// 	body {
+// 	    font-size: 150%}
+
+// }@media screen and (min-width: 103.125em) and (min-height:50.000em) { // 1650px  and  800px
+// 	body {
+// 	    font-size: 162.5%}
+// 	.container {
+// 	    max-width: 1360px;
+	    
+// }@media screen and (min-height:43.750em) { // 700px

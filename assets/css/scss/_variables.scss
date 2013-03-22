@@ -12,14 +12,65 @@ $DemoFail: #f0d8d8;
 
 //  Media Query
 //  FIX: These need to be thought over more thoroughly
-$desktopWidth: 1024px;	
-$tabletWidth: 768px;
-$phoneWidth: 480px;
+$widthXlg: 103.125em; // 1650px
+$widthLg: 75.000em;	// 1200px
+$widthMed: 64.375em; // 1030px
+$widthSm: 37.500em; // 600px
+
+// @media screen and (min-width: 20.000em) { // 320px
+// }@media screen and (min-width: 25.000em) { // 400px
+// }@media screen and (max-width: 37.438em) { // 599px
+// }@media screen and (min-width: 37.500em) { // 600px
+// 	body {
+// 	    font-size: 112.5%}
+// 	h2, h3, h4, h5 {
+// 	    font-size: 1.875em;
+// 	    line-height: 1.3em;
+// 	}
+// 	h5 {
+// 	    font-size: 1.375em;
+// 	}
+
+// }@media screen and (min-width: 64.375em) { // 1030px
+// 	body {
+// 	    font-size: 137.5%}
+
+// }@media screen and (min-width: 75.000em) and (min-height:31.250em) { // 1200px  and  500px
+// 	body {
+// 	    font-size: 150%}
+
+// }@media screen and (min-width: 103.125em) and (min-height:50.000em) { // 1650px  and  800px
+// 	body {
+// 	    font-size: 162.5%}
+// 	.container {
+// 	    max-width: 1360px;
+	    
+// }@media screen and (min-height:43.750em) { // 700px
+
+
 
 // FIX: Define these later
-// $heightSm: ;
-// $heightMed: ;
-// $heightLg: ;
+$heightSm: 31.250em; // 500px
+$heightMed: 43.750em; // 700px
+$heightLg: 50.000em; // 800px
+
+
+
+// These are from Kabam
+//  Media Query Width
+//  FIX: Ensure there isn't a break from
+// $desktopWidth: 76em; // 1024px;	
+// $widthLg: 78em;
+// $widthMed: 48em; // 768px;
+// $widthSm: 32em; // 480px;
+
+// Media Query Height
+// $heightSm: 45em; // 720px;
+// $heightMed: 55em; // 880px;
+// $heightLg: 65em; // 1040px;
+// These are from Kabam
+
+
 
 //  Colors
 $textColor: #333333;

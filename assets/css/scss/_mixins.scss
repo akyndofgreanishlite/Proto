@@ -7,12 +7,24 @@
     font-feature-settings: "liga", "dlig";
 }
 
-// $colCount: 2;
-// $colSpan: 1;
-// $gutter: 4%;
+@mixin border-radius ($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
 
-// $width: $colSpan * ((100% - $gutter) / $colCount);
+// @mixin column-count () {
+// 	-webkit-column-count: 5;
+//     -webkit-column-gap:  .75em;
+//     -moz-column-count: 5;
+//     -moz-column-gap:  .75em;
+//     -o-column-count: 5;
+//     -o-column-gap:  .75em;
+//     column-count: 5;
+//     column-gap:  .75em;
+// }
 
+// Fix $colSpan and $gutter propogation. 
 
 @mixin width($colCount: 2, $colSpan: 1, $gutter: 4%) {
 	width: $colSpan * ((100% - $gutter) / $colCount);
@@ -27,7 +39,7 @@
 	margin-right: 0;
 }
 
-@mixin firstOnly($colCount: 2, $colSpan: 1, $gutter: 4%) {
+@mixin firstonly($colCount: 2, $colSpan: 1, $gutter: 4%) {
 	margin-left: $gutter + ($colSpan * ((100% - $gutter) / $colCount));
 	margin-right: 100% - ($gutter + ($colSpan * ((100% - $gutter) / $colCount)));
 }
@@ -43,53 +55,7 @@
 		@include only($colCount, $colSpan, $gutter);
 	}
 
-	&.firstOnly {
-		@include firstOnly($colCount, $colSpan, $gutter);
+	&.firstonly {
+		@include firstonly($colCount, $colSpan, $gutter);
 	}
 }
-
-
-
-
-// width: $colSpan * ((100% - $gutter) / $colCount);
-
-// 100% - $width
-
-// 100% - 2$width + $gutter
-
-
-// @mixin width() {$colSpan * ((100% - $gutter) / $colCount)}
-
-
-
-// @mixin name() {	
-// 	@include columns();
-// }
-
-
-// $gutter: 4%;
-
-
-
-// @mixin columns($colCount, $colSpan: 1) { 
-// 	$width: $colSpan * ((100% - $gutter) / $colCount);
-// 	width: $width;
-// }
-
-
-
-
-// @mixin first() {
-// 	@content;
-// 	$width: ($colSpan * (100% - $gutter) / $colCount);
-// 	margin-left: 100% - width;
-// }
-
-// .seventy {
-// 	$colCount: 2;
-// 	$colSpan: 1
-
-// 	@include columns();
-
-	
-// }
