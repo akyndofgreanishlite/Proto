@@ -1,6 +1,6 @@
 // This is where all of the layout modifications should live, anything that deviates from proto or base.
 
-/* Global */
+// Global
 
 body {
 	max-width: 1140px;
@@ -16,6 +16,8 @@ body {
 	}
 }
 
+// Helper Classes (Non-Proto)
+
 .lead {
 	font-size: 1.5rem; // 24px
 	line-height: 1.4em;
@@ -27,10 +29,19 @@ body {
 
 // Page specific
 
+// This is where you insert page specific styles. These may also be split out into partials in the future.
 
 
-// Desktop
+// Width X-Large
+@media (min-width: $widthXlg) {
+	body {
+		font-size: 162.5%;
+		width: 70%;
+		// max-width: 1360px;
+	}
+}
 
+// Width Large
 @media (min-width: $widthLg) {
 	body {
 		font-size: 150%;
@@ -38,17 +49,15 @@ body {
 	}
 }
 
-// Tablet Up To Desktop
-
-@media (min-width: $widthMed) and (max-width: $widthLg - 0.063em) {
+// Width Med
+@media (min-width: $widthMed) {
 	body {
 		font-size: 137.5%;
 		width: 80%;
 	}
 }
 
-// Tablet Down To Phone
-
+// Unnamed for now.
 @media (max-width: $widthMed - 0.063em) {
 	body {
 		font-size: 125%;
@@ -56,8 +65,7 @@ body {
 	}
 }
 
-// Phone
-
+// Width Small
 @media (max-width:$widthSm) {
 	body {
 		font-size: 112.5%;
@@ -82,39 +90,9 @@ body {
 	}
 }
 
-body {
-	
-	font-size: 100%;
+// Width X-Small
+@media (max-width:$widthXsm) {
+	body {		
+		font-size: 100%;
+	}
 }
-
-
-
-// @media screen and (min-width: 20.000em) { // 320px
-// }@media screen and (min-width: 25.000em) { // 400px
-// }@media screen and (max-width: 37.438em) { // 599px
-// }@media screen and (min-width: 37.500em) { // 600px
-// 	body {
-// 	    font-size: 112.5%}
-// 	h2, h3, h4, h5 {
-// 	    font-size: 1.875em;
-// 	    line-height: 1.3em;
-// 	}
-// 	h5 {
-// 	    font-size: 1.375em;
-// 	}
-
-// }@media screen and (min-width: 64.375em) { // 1030px
-// 	body {
-// 	    font-size: 137.5%}
-
-// }@media screen and (min-width: 75.000em) and (min-height:31.250em) { // 1200px  and  500px
-// 	body {
-// 	    font-size: 150%}
-
-// }@media screen and (min-width: 103.125em) and (min-height:50.000em) { // 1650px  and  800px
-// 	body {
-// 	    font-size: 162.5%}
-// 	.container {
-// 	    max-width: 1360px;
-	    
-// }@media screen and (min-height:43.750em) { // 700px
