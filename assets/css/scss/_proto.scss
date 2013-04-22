@@ -24,6 +24,7 @@
 	text-align: center;
 	// Note: Questionable whether to include or not?
 	float: none !important;
+	// clear: both;
 
 	&.ten,
 	&.twenty,
@@ -72,55 +73,55 @@
 	}
 
 	.ninety {
-		 @include columns(10, 9)
+		 @include grid-columns(10, 9)
 	}
 
 	.eighty {
-		@include columns(5, 4)
+		@include grid-columns(5, 4)
 	}
 
 	.seventyfive {
-		@include columns(4, 3)
+		@include grid-columns(4, 3)
 	}
 
 	.seventy {
- 		@include columns(10, 7)
+ 		@include grid-columns(10, 7)
 	}
 
 	.sixtysix {
-		@include columns(3, 2);
+		@include grid-columns(3, 2);
 	}
 
 	.sixty {
-		@include columns(5, 3)
+		@include grid-columns(5, 3)
 	}
 
 	.fifty {
-		@include columns(2);
+		@include grid-columns(2);
 	}
 
 	.forty {
-		@include columns(5, 2);
+		@include grid-columns(5, 2);
 	}
 
 	.thirtythree {
-		@include columns(3);
+		@include grid-columns(3);
 	}
 
 	.thirty {
-		@include columns(10, 3);
+		@include grid-columns(10, 3);
 	}
 
 	.twentyfive {
-		@include columns(4);
+		@include grid-columns(4);
 	}
 
 	.twenty {
-		@include columns(5);
+		@include grid-columns(5);
 	}
 
 	.ten {
-		@include columns(10);
+		@include grid-columns(10);
 	}
 
 	// TODO: nth-match to replace :nth-of-type
@@ -340,55 +341,55 @@
 		}
 
 		.desktop-to-ninety {
-			@include columns(10, 9);
+			@include grid-columns(10, 9);
 		}
 
 		.desktop-to-eighty {
-			@include columns(5, 4);
+			@include grid-columns(5, 4);
 		}
 
 		.desktop-to-seventyfive {
-			@include columns(4, 3);
+			@include grid-columns(4, 3);
 		}
 
 		.desktop-to-seventy {
-			@include columns(10, 7);
+			@include grid-columns(10, 7);
 		}
 
 		.desktop-to-sixtysix {
-			@include columns(3, 2);
+			@include grid-columns(3, 2);
 		}
 
 		.desktop-to-sixty {
-			@include columns(5, 3);
+			@include grid-columns(5, 3);
 		}
 
 		.desktop-to-fifty {
-			@include columns(2);
+			@include grid-columns(2);
 		}
 
 		.desktop-to-forty {
-			@include columns(5, 2);
+			@include grid-columns(5, 2);
 		}
 		
 		.desktop-to-thirtythree {
-			@include columns(3);
+			@include grid-columns(3);
 		}
 
 		.desktop-to-thirty {
-			@include columns(10, 3);
+			@include grid-columns(10, 3);
 		}
 
 		.desktop-to-twentyfive {
-			@include columns(4);
+			@include grid-columns(4);
 		}
 
 		.desktop-to-twenty {
-			@include columns(5);
+			@include grid-columns(5);
 		}
 
 		.desktop-to-ten {
-			@include columns(10);
+			@include grid-columns(10);
 		}
 
 		.desktop-to-ninety,
@@ -462,55 +463,55 @@
 		}
 
 		.tablet-to-ninety {
-			@include columns(10, 9);
+			@include grid-columns(10, 9);
 		}
 
 		.tablet-to-eighty {
-			@include columns(5, 4);
+			@include grid-columns(5, 4);
 		}
 
 		.tablet-to-seventyfive {
-			@include columns(4, 3);
+			@include grid-columns(4, 3);
 		}
 
 		.tablet-to-seventy {
-	 		@include columns(10, 7);
+	 		@include grid-columns(10, 7);
 		}
 
 		.tablet-to-sixtysix {
-			@include columns(3, 2);
+			@include grid-columns(3, 2);
 		}
 
 		.tablet-to-sixty {
-			@include columns(5, 3);
+			@include grid-columns(5, 3);
 		}
 
 		.tablet-to-fifty {
-			@include columns(2);
+			@include grid-columns(2);
 		}
 
 		.tablet-to-forty {
-			@include columns(5, 2);
+			@include grid-columns(5, 2);
 		}
 
 		.tablet-to-thirtythree {
-			@include columns(3);
+			@include grid-columns(3);
 		}
 
 		.tablet-to-thirty {
-			@include columns(10, 3);
+			@include grid-columns(10, 3);
 		}
 
 		.tablet-to-twentyfive {
-			@include columns(4);
+			@include grid-columns(4);
 		}
 
 		.tablet-to-twenty {
-			@include columns(5);
+			@include grid-columns(5);
 		}
 
 		.tablet-to-ten {
-			@include columns(10);
+			@include grid-columns(10);
 		}
 
 		.tablet-to-ninety,
@@ -608,55 +609,55 @@
 		}
 
 		.phone-to-ninety {
-			@include columns(10, 9);
+			@include grid-columns(10, 9);
 		}
 
 		.phone-to-eighty {
-			@include columns(5, 4);
+			@include grid-columns(5, 4);
 		}
 
 		.phone-to-seventyfive {
-			@include columns(4, 3);
+			@include grid-columns(4, 3);
 		}
 
 		.phone-to-seventy {
-	 		@include columns(10, 7);
+	 		@include grid-columns(10, 7);
 		}
 
 		.phone-to-sixtysix {
-			@include columns(3, 2);
+			@include grid-columns(3, 2);
 		}
 
 		.phone-to-sixty {
-			@include columns(5, 3);
+			@include grid-columns(5, 3);
 		}
 
 		.phone-to-fifty {
-			@include columns(2);
+			@include grid-columns(2);
 		}
 
 		.phone-to-forty {
-			@include columns(5, 2);
+			@include grid-columns(5, 2);
 		}
 
 		.phone-to-thirtythree {
-			@include columns(3);
+			@include grid-columns(3);
 		}
 
 		.phone-to-thirty {
-			@include columns(10, 3);
+			@include grid-columns(10, 3);
 		}
 
 		.phone-to-twentyfive {
-			@include columns(4);
+			@include grid-columns(4);
 		}
 
 		.phone-to-twenty {
-			@include columns(5);
+			@include grid-columns(5);
 		}
 
 		.phone-to-ten {
-			@include columns(10);
+			@include grid-columns(10);
 		}
 
 		// .phone-to-ninety {
