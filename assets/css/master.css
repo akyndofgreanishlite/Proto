@@ -3,8 +3,7 @@ body {
   line-height: 1.4em;
   font-family: "Elena Basic", Georgia, serif;
   color: #333333;
-  margin: 0 auto;
-  text-shadow: 0 1px 0 white; }
+  margin: 0 auto; }
 
 h1,
 h2,
@@ -946,7 +945,7 @@ footer {
     background: #f0d8d8;
     color: #913838; } }
 body {
-  max-width: 1140px;
+  max-width: 80em;
   -moz-font-feature-settings: "liga=1, dlig=1";
   -moz-font-feature-settings: "liga", "dlig";
   /* EDIT: new syntax for FF 15+ */
@@ -956,13 +955,8 @@ body {
   font-feature-settings: "liga", "dlig"; }
   body.center p {
     text-align: left;
-    width: 70%;
     margin-left: auto;
     margin-right: auto; }
-
-.lead {
-  font-size: 1.5rem;
-  line-height: 1.4em; }
 
 @media (min-width: 103.125em) {
   body {

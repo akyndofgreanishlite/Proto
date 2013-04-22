@@ -3,33 +3,18 @@
 // Global
 
 body {
-	max-width: 1140px;
+	max-width: 80em; // 1280px;
 	@include opentype;
 
 	&.center {
 		p {
 			text-align: left;
-			width: 70%; //FIX: Remove this quick hack.
+			// width: 70%; //FIX: Remove this quick hack.
 			margin-left: auto;
 			margin-right: auto;
 		}
 	}
 }
-
-// Helper Classes (Non-Proto)
-
-.lead {
-	font-size: 1.5rem; // 24px
-	line-height: 1.4em;
-}
-
-.inactive {
-	
-}
-
-// Page specific
-
-// This is where you insert page specific styles. These may also be split out into partials in the future.
 
 
 // Width X-Large
@@ -49,7 +34,7 @@ body {
 	}
 }
 
-// Width Med
+// Width Med and Up
 @media (min-width: $widthMed) {
 	body {
 		font-size: 137.5%;
@@ -57,7 +42,7 @@ body {
 	}
 }
 
-// Unnamed for now.
+// Width Med and Down
 @media (max-width: $widthMed - 0.063em) {
 	body {
 		font-size: 125%;
