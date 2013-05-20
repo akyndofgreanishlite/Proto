@@ -40,13 +40,12 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
 }
 
 
-@mixin opentype () {
-	-moz-font-feature-settings: "liga=1, dlig=1"; 
-	-moz-font-feature-settings: "liga", "dlig"; /* EDIT: new syntax for FF 15+ */ 
-	-ms-font-feature-settings: "liga", "dlig"; 
-	-o-font-feature-settings: "liga", "dlig"; 
-	-webkit-font-feature-settings: "liga", "dlig"; 
-	font-feature-settings: "liga", "dlig";
+@mixin opentype ($features:'"liga", "dlig"') {
+	-moz-font-feature-settings: $features;
+	-ms-font-feature-settings: $features; 
+	-o-font-feature-settings: $features; 
+	-webkit-font-feature-settings: $features; 
+	font-feature-settings: $features;
 }
 
 @mixin border-radius ($radius) {
