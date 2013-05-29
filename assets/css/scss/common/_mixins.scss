@@ -120,7 +120,18 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
 // Fix $colSpan and $gutter propogation. 
 
 @mixin width($colCount: 2, $colSpan: 1, $gutter: 4%) {
-	width: $colSpan * ((100% - $gutter) / $colCount);
+	width: $colSpan * ((100% - ($gutter * $colCount)) / $colCount);
+	margin-left: 0;
+	margin-right: $gutter;
+
+	&:nth-of-type(#{$colCount}n + #{$colCount}) {
+		margin-right: 0;
+		// background-color: teal !important;
+	}
+
+	&:nth-of-type(#{$colCount}n + 1) {
+		clear: left;
+	}
 }
 
 @mixin first($colCount: 2, $colSpan: 1, $gutter: 4%) {
