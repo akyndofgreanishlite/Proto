@@ -314,7 +314,7 @@
 
 // Desktop
 
-@media (min-width: $widthLg) {
+@media (min-width: $width-lg) {
 
 	body {
 		font-size: 134%; 
@@ -428,7 +428,7 @@
 
 // Tablet Up To Desktop
 
-@media (min-width: $widthMed) and (max-width: $widthLg - 0.063em) {
+@media (min-width: $width-med) and (max-width: $width-lg - 0.063em) {
 
 	.tablet {
 		display: block;
@@ -554,7 +554,7 @@
 
 // Tablet Down To Phone
 
-@media (max-width:$widthMed - 0.063em) {
+@media (max-width:$width-med - 0.063em) {
 
 	body {
 		font-size: 112.5%;
@@ -716,7 +716,7 @@
 
 // Phone
 
-@media (max-width: $widthSm) {
+@media (max-width: $width-sm) {
 
 	body, 
 	nav li {

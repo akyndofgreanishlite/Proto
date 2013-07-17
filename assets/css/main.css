@@ -117,211 +117,211 @@ footer {
 .grid .hundred {
   width: 100%; }
 .grid .ninety {
-  width: 54%;
+  width: 72%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .ninety:nth-of-type(10n + 10) {
+  .grid .ninety:nth-child(10n + 10) {
     margin-right: 0; }
-  .grid .ninety:nth-of-type(10n + 1) {
+  .grid .ninety:nth-child(10n + 1) {
     clear: left; }
   .grid .ninety.first {
     margin-left: 90.4%; }
   .grid .ninety.only {
     margin-left: 13.6%;
     margin-right: 0; }
-  .grid .ninety.firstonly {
+  .grid .ninety.first-only {
     margin-left: 90.4%;
     margin-right: 9.6%; }
 .grid .eighty {
-  width: 64%;
+  width: 72%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .eighty:nth-of-type(5n + 5) {
+  .grid .eighty:nth-child(5n + 5) {
     margin-right: 0; }
-  .grid .eighty:nth-of-type(5n + 1) {
+  .grid .eighty:nth-child(5n + 1) {
     clear: left; }
   .grid .eighty.first {
     margin-left: 80.8%; }
   .grid .eighty.only {
     margin-left: 23.2%;
     margin-right: 0; }
-  .grid .eighty.firstonly {
+  .grid .eighty.first-only {
     margin-left: 80.8%;
     margin-right: 19.2%; }
 .grid .seventyfive {
-  width: 63%;
+  width: 69%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .seventyfive:nth-of-type(4n + 4) {
+  .grid .seventyfive:nth-child(4n + 4) {
     margin-right: 0; }
-  .grid .seventyfive:nth-of-type(4n + 1) {
+  .grid .seventyfive:nth-child(4n + 1) {
     clear: left; }
   .grid .seventyfive.first {
     margin-left: 76%; }
   .grid .seventyfive.only {
     margin-left: 28%;
     margin-right: 0; }
-  .grid .seventyfive.firstonly {
+  .grid .seventyfive.first-only {
     margin-left: 76%;
     margin-right: 24%; }
 .grid .seventy {
-  width: 42%;
+  width: 56%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .seventy:nth-of-type(10n + 10) {
+  .grid .seventy:nth-child(10n + 10) {
     margin-right: 0; }
-  .grid .seventy:nth-of-type(10n + 1) {
+  .grid .seventy:nth-child(10n + 1) {
     clear: left; }
   .grid .seventy.first {
     margin-left: 71.2%; }
   .grid .seventy.only {
     margin-left: 32.8%;
     margin-right: 0; }
-  .grid .seventy.firstonly {
+  .grid .seventy.first-only {
     margin-left: 71.2%;
     margin-right: 28.8%; }
 .grid .sixtysix {
-  width: 58.66667%;
+  width: 62.66667%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .sixtysix:nth-of-type(3n + 3) {
+  .grid .sixtysix:nth-child(3n + 3) {
     margin-right: 0; }
-  .grid .sixtysix:nth-of-type(3n + 1) {
+  .grid .sixtysix:nth-child(3n + 1) {
     clear: left; }
   .grid .sixtysix.first {
     margin-left: 68%; }
   .grid .sixtysix.only {
     margin-left: 36%;
     margin-right: 0; }
-  .grid .sixtysix.firstonly {
+  .grid .sixtysix.first-only {
     margin-left: 68%;
     margin-right: 32%; }
 .grid .sixty {
-  width: 48%;
+  width: 54%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .sixty:nth-of-type(5n + 5) {
+  .grid .sixty:nth-child(5n + 5) {
     margin-right: 0; }
-  .grid .sixty:nth-of-type(5n + 1) {
+  .grid .sixty:nth-child(5n + 1) {
     clear: left; }
   .grid .sixty.first {
     margin-left: 61.6%; }
   .grid .sixty.only {
     margin-left: 42.4%;
     margin-right: 0; }
-  .grid .sixty.firstonly {
+  .grid .sixty.first-only {
     margin-left: 61.6%;
     margin-right: 38.4%; }
 .grid .fifty {
-  width: 46%;
+  width: 48%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .fifty:nth-of-type(2n + 2) {
+  .grid .fifty:nth-child(2n + 2) {
     margin-right: 0; }
-  .grid .fifty:nth-of-type(2n + 1) {
+  .grid .fifty:nth-child(2n + 1) {
     clear: left; }
   .grid .fifty.first {
     margin-left: 52%; }
   .grid .fifty.only {
     margin-left: 52%;
     margin-right: 0; }
-  .grid .fifty.firstonly {
+  .grid .fifty.first-only {
     margin-left: 52%;
     margin-right: 48%; }
 .grid .forty {
-  width: 32%;
+  width: 36%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .forty:nth-of-type(5n + 5) {
+  .grid .forty:nth-child(5n + 5) {
     margin-right: 0; }
-  .grid .forty:nth-of-type(5n + 1) {
+  .grid .forty:nth-child(5n + 1) {
     clear: left; }
   .grid .forty.first {
     margin-left: 42.4%; }
   .grid .forty.only {
     margin-left: 61.6%;
     margin-right: 0; }
-  .grid .forty.firstonly {
+  .grid .forty.first-only {
     margin-left: 42.4%;
     margin-right: 57.6%; }
 .grid .thirtythree {
-  width: 29.33333%;
+  width: 31.33333%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .thirtythree:nth-of-type(3n + 3) {
+  .grid .thirtythree:nth-child(3n + 3) {
     margin-right: 0; }
-  .grid .thirtythree:nth-of-type(3n + 1) {
+  .grid .thirtythree:nth-child(3n + 1) {
     clear: left; }
   .grid .thirtythree.first {
     margin-left: 36%; }
   .grid .thirtythree.only {
     margin-left: 68%;
     margin-right: 0; }
-  .grid .thirtythree.firstonly {
+  .grid .thirtythree.first-only {
     margin-left: 36%;
     margin-right: 64%; }
 .grid .thirty {
-  width: 18%;
+  width: 24%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .thirty:nth-of-type(10n + 10) {
+  .grid .thirty:nth-child(10n + 10) {
     margin-right: 0; }
-  .grid .thirty:nth-of-type(10n + 1) {
+  .grid .thirty:nth-child(10n + 1) {
     clear: left; }
   .grid .thirty.first {
     margin-left: 32.8%; }
   .grid .thirty.only {
     margin-left: 71.2%;
     margin-right: 0; }
-  .grid .thirty.firstonly {
+  .grid .thirty.first-only {
     margin-left: 32.8%;
     margin-right: 67.2%; }
 .grid .twentyfive {
-  width: 21%;
+  width: 23%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .twentyfive:nth-of-type(4n + 4) {
+  .grid .twentyfive:nth-child(4n + 4) {
     margin-right: 0; }
-  .grid .twentyfive:nth-of-type(4n + 1) {
+  .grid .twentyfive:nth-child(4n + 1) {
     clear: left; }
   .grid .twentyfive.first {
     margin-left: 28%; }
   .grid .twentyfive.only {
     margin-left: 76%;
     margin-right: 0; }
-  .grid .twentyfive.firstonly {
+  .grid .twentyfive.first-only {
     margin-left: 28%;
     margin-right: 72%; }
 .grid .twenty {
-  width: 16%;
+  width: 18%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .twenty:nth-of-type(5n + 5) {
+  .grid .twenty:nth-child(5n + 5) {
     margin-right: 0; }
-  .grid .twenty:nth-of-type(5n + 1) {
+  .grid .twenty:nth-child(5n + 1) {
     clear: left; }
   .grid .twenty.first {
     margin-left: 23.2%; }
   .grid .twenty.only {
     margin-left: 80.8%;
     margin-right: 0; }
-  .grid .twenty.firstonly {
+  .grid .twenty.first-only {
     margin-left: 23.2%;
     margin-right: 76.8%; }
 .grid .ten {
-  width: 6%;
+  width: 8%;
   margin-left: 0;
   margin-right: 4%; }
-  .grid .ten:nth-of-type(10n + 10) {
+  .grid .ten:nth-child(10n + 10) {
     margin-right: 0; }
-  .grid .ten:nth-of-type(10n + 1) {
+  .grid .ten:nth-child(10n + 1) {
     clear: left; }
   .grid .ten.first {
     margin-left: 13.6%; }
   .grid .ten.only {
     margin-left: 90.4%;
     margin-right: 0; }
-  .grid .ten.firstonly {
+  .grid .ten.first-only {
     margin-left: 13.6%;
     margin-right: 86.4%; }
 .grid .fifty:nth-of-type(2n+2),
@@ -463,211 +463,211 @@ footer {
   .grid .desktop-to-hundred {
     width: 100%; }
   .grid .desktop-to-ninety {
-    width: 54%;
+    width: 72%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-ninety:nth-of-type(10n + 10) {
+    .grid .desktop-to-ninety:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .desktop-to-ninety:nth-of-type(10n + 1) {
+    .grid .desktop-to-ninety:nth-child(10n + 1) {
       clear: left; }
     .grid .desktop-to-ninety.first {
       margin-left: 90.4%; }
     .grid .desktop-to-ninety.only {
       margin-left: 13.6%;
       margin-right: 0; }
-    .grid .desktop-to-ninety.firstonly {
+    .grid .desktop-to-ninety.first-only {
       margin-left: 90.4%;
       margin-right: 9.6%; }
   .grid .desktop-to-eighty {
-    width: 64%;
+    width: 72%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-eighty:nth-of-type(5n + 5) {
+    .grid .desktop-to-eighty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .desktop-to-eighty:nth-of-type(5n + 1) {
+    .grid .desktop-to-eighty:nth-child(5n + 1) {
       clear: left; }
     .grid .desktop-to-eighty.first {
       margin-left: 80.8%; }
     .grid .desktop-to-eighty.only {
       margin-left: 23.2%;
       margin-right: 0; }
-    .grid .desktop-to-eighty.firstonly {
+    .grid .desktop-to-eighty.first-only {
       margin-left: 80.8%;
       margin-right: 19.2%; }
   .grid .desktop-to-seventyfive {
-    width: 63%;
+    width: 69%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-seventyfive:nth-of-type(4n + 4) {
+    .grid .desktop-to-seventyfive:nth-child(4n + 4) {
       margin-right: 0; }
-    .grid .desktop-to-seventyfive:nth-of-type(4n + 1) {
+    .grid .desktop-to-seventyfive:nth-child(4n + 1) {
       clear: left; }
     .grid .desktop-to-seventyfive.first {
       margin-left: 76%; }
     .grid .desktop-to-seventyfive.only {
       margin-left: 28%;
       margin-right: 0; }
-    .grid .desktop-to-seventyfive.firstonly {
+    .grid .desktop-to-seventyfive.first-only {
       margin-left: 76%;
       margin-right: 24%; }
   .grid .desktop-to-seventy {
-    width: 42%;
+    width: 56%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-seventy:nth-of-type(10n + 10) {
+    .grid .desktop-to-seventy:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .desktop-to-seventy:nth-of-type(10n + 1) {
+    .grid .desktop-to-seventy:nth-child(10n + 1) {
       clear: left; }
     .grid .desktop-to-seventy.first {
       margin-left: 71.2%; }
     .grid .desktop-to-seventy.only {
       margin-left: 32.8%;
       margin-right: 0; }
-    .grid .desktop-to-seventy.firstonly {
+    .grid .desktop-to-seventy.first-only {
       margin-left: 71.2%;
       margin-right: 28.8%; }
   .grid .desktop-to-sixtysix {
-    width: 58.66667%;
+    width: 62.66667%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-sixtysix:nth-of-type(3n + 3) {
+    .grid .desktop-to-sixtysix:nth-child(3n + 3) {
       margin-right: 0; }
-    .grid .desktop-to-sixtysix:nth-of-type(3n + 1) {
+    .grid .desktop-to-sixtysix:nth-child(3n + 1) {
       clear: left; }
     .grid .desktop-to-sixtysix.first {
       margin-left: 68%; }
     .grid .desktop-to-sixtysix.only {
       margin-left: 36%;
       margin-right: 0; }
-    .grid .desktop-to-sixtysix.firstonly {
+    .grid .desktop-to-sixtysix.first-only {
       margin-left: 68%;
       margin-right: 32%; }
   .grid .desktop-to-sixty {
-    width: 48%;
+    width: 54%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-sixty:nth-of-type(5n + 5) {
+    .grid .desktop-to-sixty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .desktop-to-sixty:nth-of-type(5n + 1) {
+    .grid .desktop-to-sixty:nth-child(5n + 1) {
       clear: left; }
     .grid .desktop-to-sixty.first {
       margin-left: 61.6%; }
     .grid .desktop-to-sixty.only {
       margin-left: 42.4%;
       margin-right: 0; }
-    .grid .desktop-to-sixty.firstonly {
+    .grid .desktop-to-sixty.first-only {
       margin-left: 61.6%;
       margin-right: 38.4%; }
   .grid .desktop-to-fifty {
-    width: 46%;
+    width: 48%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-fifty:nth-of-type(2n + 2) {
+    .grid .desktop-to-fifty:nth-child(2n + 2) {
       margin-right: 0; }
-    .grid .desktop-to-fifty:nth-of-type(2n + 1) {
+    .grid .desktop-to-fifty:nth-child(2n + 1) {
       clear: left; }
     .grid .desktop-to-fifty.first {
       margin-left: 52%; }
     .grid .desktop-to-fifty.only {
       margin-left: 52%;
       margin-right: 0; }
-    .grid .desktop-to-fifty.firstonly {
+    .grid .desktop-to-fifty.first-only {
       margin-left: 52%;
       margin-right: 48%; }
   .grid .desktop-to-forty {
-    width: 32%;
+    width: 36%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-forty:nth-of-type(5n + 5) {
+    .grid .desktop-to-forty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .desktop-to-forty:nth-of-type(5n + 1) {
+    .grid .desktop-to-forty:nth-child(5n + 1) {
       clear: left; }
     .grid .desktop-to-forty.first {
       margin-left: 42.4%; }
     .grid .desktop-to-forty.only {
       margin-left: 61.6%;
       margin-right: 0; }
-    .grid .desktop-to-forty.firstonly {
+    .grid .desktop-to-forty.first-only {
       margin-left: 42.4%;
       margin-right: 57.6%; }
   .grid .desktop-to-thirtythree {
-    width: 29.33333%;
+    width: 31.33333%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-thirtythree:nth-of-type(3n + 3) {
+    .grid .desktop-to-thirtythree:nth-child(3n + 3) {
       margin-right: 0; }
-    .grid .desktop-to-thirtythree:nth-of-type(3n + 1) {
+    .grid .desktop-to-thirtythree:nth-child(3n + 1) {
       clear: left; }
     .grid .desktop-to-thirtythree.first {
       margin-left: 36%; }
     .grid .desktop-to-thirtythree.only {
       margin-left: 68%;
       margin-right: 0; }
-    .grid .desktop-to-thirtythree.firstonly {
+    .grid .desktop-to-thirtythree.first-only {
       margin-left: 36%;
       margin-right: 64%; }
   .grid .desktop-to-thirty {
-    width: 18%;
+    width: 24%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-thirty:nth-of-type(10n + 10) {
+    .grid .desktop-to-thirty:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .desktop-to-thirty:nth-of-type(10n + 1) {
+    .grid .desktop-to-thirty:nth-child(10n + 1) {
       clear: left; }
     .grid .desktop-to-thirty.first {
       margin-left: 32.8%; }
     .grid .desktop-to-thirty.only {
       margin-left: 71.2%;
       margin-right: 0; }
-    .grid .desktop-to-thirty.firstonly {
+    .grid .desktop-to-thirty.first-only {
       margin-left: 32.8%;
       margin-right: 67.2%; }
   .grid .desktop-to-twentyfive {
-    width: 21%;
+    width: 23%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-twentyfive:nth-of-type(4n + 4) {
+    .grid .desktop-to-twentyfive:nth-child(4n + 4) {
       margin-right: 0; }
-    .grid .desktop-to-twentyfive:nth-of-type(4n + 1) {
+    .grid .desktop-to-twentyfive:nth-child(4n + 1) {
       clear: left; }
     .grid .desktop-to-twentyfive.first {
       margin-left: 28%; }
     .grid .desktop-to-twentyfive.only {
       margin-left: 76%;
       margin-right: 0; }
-    .grid .desktop-to-twentyfive.firstonly {
+    .grid .desktop-to-twentyfive.first-only {
       margin-left: 28%;
       margin-right: 72%; }
   .grid .desktop-to-twenty {
-    width: 16%;
+    width: 18%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-twenty:nth-of-type(5n + 5) {
+    .grid .desktop-to-twenty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .desktop-to-twenty:nth-of-type(5n + 1) {
+    .grid .desktop-to-twenty:nth-child(5n + 1) {
       clear: left; }
     .grid .desktop-to-twenty.first {
       margin-left: 23.2%; }
     .grid .desktop-to-twenty.only {
       margin-left: 80.8%;
       margin-right: 0; }
-    .grid .desktop-to-twenty.firstonly {
+    .grid .desktop-to-twenty.first-only {
       margin-left: 23.2%;
       margin-right: 76.8%; }
   .grid .desktop-to-ten {
-    width: 6%;
+    width: 8%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .desktop-to-ten:nth-of-type(10n + 10) {
+    .grid .desktop-to-ten:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .desktop-to-ten:nth-of-type(10n + 1) {
+    .grid .desktop-to-ten:nth-child(10n + 1) {
       clear: left; }
     .grid .desktop-to-ten.first {
       margin-left: 13.6%; }
     .grid .desktop-to-ten.only {
       margin-left: 90.4%;
       margin-right: 0; }
-    .grid .desktop-to-ten.firstonly {
+    .grid .desktop-to-ten.first-only {
       margin-left: 13.6%;
       margin-right: 86.4%; }
   .grid .desktop-to-ninety,
@@ -715,211 +715,211 @@ footer {
   .grid .tablet-to-hundred {
     width: 100%; }
   .grid .tablet-to-ninety {
-    width: 54%;
+    width: 72%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-ninety:nth-of-type(10n + 10) {
+    .grid .tablet-to-ninety:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .tablet-to-ninety:nth-of-type(10n + 1) {
+    .grid .tablet-to-ninety:nth-child(10n + 1) {
       clear: left; }
     .grid .tablet-to-ninety.first {
       margin-left: 90.4%; }
     .grid .tablet-to-ninety.only {
       margin-left: 13.6%;
       margin-right: 0; }
-    .grid .tablet-to-ninety.firstonly {
+    .grid .tablet-to-ninety.first-only {
       margin-left: 90.4%;
       margin-right: 9.6%; }
   .grid .tablet-to-eighty {
-    width: 64%;
+    width: 72%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-eighty:nth-of-type(5n + 5) {
+    .grid .tablet-to-eighty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .tablet-to-eighty:nth-of-type(5n + 1) {
+    .grid .tablet-to-eighty:nth-child(5n + 1) {
       clear: left; }
     .grid .tablet-to-eighty.first {
       margin-left: 80.8%; }
     .grid .tablet-to-eighty.only {
       margin-left: 23.2%;
       margin-right: 0; }
-    .grid .tablet-to-eighty.firstonly {
+    .grid .tablet-to-eighty.first-only {
       margin-left: 80.8%;
       margin-right: 19.2%; }
   .grid .tablet-to-seventyfive {
-    width: 63%;
+    width: 69%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-seventyfive:nth-of-type(4n + 4) {
+    .grid .tablet-to-seventyfive:nth-child(4n + 4) {
       margin-right: 0; }
-    .grid .tablet-to-seventyfive:nth-of-type(4n + 1) {
+    .grid .tablet-to-seventyfive:nth-child(4n + 1) {
       clear: left; }
     .grid .tablet-to-seventyfive.first {
       margin-left: 76%; }
     .grid .tablet-to-seventyfive.only {
       margin-left: 28%;
       margin-right: 0; }
-    .grid .tablet-to-seventyfive.firstonly {
+    .grid .tablet-to-seventyfive.first-only {
       margin-left: 76%;
       margin-right: 24%; }
   .grid .tablet-to-seventy {
-    width: 42%;
+    width: 56%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-seventy:nth-of-type(10n + 10) {
+    .grid .tablet-to-seventy:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .tablet-to-seventy:nth-of-type(10n + 1) {
+    .grid .tablet-to-seventy:nth-child(10n + 1) {
       clear: left; }
     .grid .tablet-to-seventy.first {
       margin-left: 71.2%; }
     .grid .tablet-to-seventy.only {
       margin-left: 32.8%;
       margin-right: 0; }
-    .grid .tablet-to-seventy.firstonly {
+    .grid .tablet-to-seventy.first-only {
       margin-left: 71.2%;
       margin-right: 28.8%; }
   .grid .tablet-to-sixtysix {
-    width: 58.66667%;
+    width: 62.66667%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-sixtysix:nth-of-type(3n + 3) {
+    .grid .tablet-to-sixtysix:nth-child(3n + 3) {
       margin-right: 0; }
-    .grid .tablet-to-sixtysix:nth-of-type(3n + 1) {
+    .grid .tablet-to-sixtysix:nth-child(3n + 1) {
       clear: left; }
     .grid .tablet-to-sixtysix.first {
       margin-left: 68%; }
     .grid .tablet-to-sixtysix.only {
       margin-left: 36%;
       margin-right: 0; }
-    .grid .tablet-to-sixtysix.firstonly {
+    .grid .tablet-to-sixtysix.first-only {
       margin-left: 68%;
       margin-right: 32%; }
   .grid .tablet-to-sixty {
-    width: 48%;
+    width: 54%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-sixty:nth-of-type(5n + 5) {
+    .grid .tablet-to-sixty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .tablet-to-sixty:nth-of-type(5n + 1) {
+    .grid .tablet-to-sixty:nth-child(5n + 1) {
       clear: left; }
     .grid .tablet-to-sixty.first {
       margin-left: 61.6%; }
     .grid .tablet-to-sixty.only {
       margin-left: 42.4%;
       margin-right: 0; }
-    .grid .tablet-to-sixty.firstonly {
+    .grid .tablet-to-sixty.first-only {
       margin-left: 61.6%;
       margin-right: 38.4%; }
   .grid .tablet-to-fifty {
-    width: 46%;
+    width: 48%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-fifty:nth-of-type(2n + 2) {
+    .grid .tablet-to-fifty:nth-child(2n + 2) {
       margin-right: 0; }
-    .grid .tablet-to-fifty:nth-of-type(2n + 1) {
+    .grid .tablet-to-fifty:nth-child(2n + 1) {
       clear: left; }
     .grid .tablet-to-fifty.first {
       margin-left: 52%; }
     .grid .tablet-to-fifty.only {
       margin-left: 52%;
       margin-right: 0; }
-    .grid .tablet-to-fifty.firstonly {
+    .grid .tablet-to-fifty.first-only {
       margin-left: 52%;
       margin-right: 48%; }
   .grid .tablet-to-forty {
-    width: 32%;
+    width: 36%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-forty:nth-of-type(5n + 5) {
+    .grid .tablet-to-forty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .tablet-to-forty:nth-of-type(5n + 1) {
+    .grid .tablet-to-forty:nth-child(5n + 1) {
       clear: left; }
     .grid .tablet-to-forty.first {
       margin-left: 42.4%; }
     .grid .tablet-to-forty.only {
       margin-left: 61.6%;
       margin-right: 0; }
-    .grid .tablet-to-forty.firstonly {
+    .grid .tablet-to-forty.first-only {
       margin-left: 42.4%;
       margin-right: 57.6%; }
   .grid .tablet-to-thirtythree {
-    width: 29.33333%;
+    width: 31.33333%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-thirtythree:nth-of-type(3n + 3) {
+    .grid .tablet-to-thirtythree:nth-child(3n + 3) {
       margin-right: 0; }
-    .grid .tablet-to-thirtythree:nth-of-type(3n + 1) {
+    .grid .tablet-to-thirtythree:nth-child(3n + 1) {
       clear: left; }
     .grid .tablet-to-thirtythree.first {
       margin-left: 36%; }
     .grid .tablet-to-thirtythree.only {
       margin-left: 68%;
       margin-right: 0; }
-    .grid .tablet-to-thirtythree.firstonly {
+    .grid .tablet-to-thirtythree.first-only {
       margin-left: 36%;
       margin-right: 64%; }
   .grid .tablet-to-thirty {
-    width: 18%;
+    width: 24%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-thirty:nth-of-type(10n + 10) {
+    .grid .tablet-to-thirty:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .tablet-to-thirty:nth-of-type(10n + 1) {
+    .grid .tablet-to-thirty:nth-child(10n + 1) {
       clear: left; }
     .grid .tablet-to-thirty.first {
       margin-left: 32.8%; }
     .grid .tablet-to-thirty.only {
       margin-left: 71.2%;
       margin-right: 0; }
-    .grid .tablet-to-thirty.firstonly {
+    .grid .tablet-to-thirty.first-only {
       margin-left: 32.8%;
       margin-right: 67.2%; }
   .grid .tablet-to-twentyfive {
-    width: 21%;
+    width: 23%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-twentyfive:nth-of-type(4n + 4) {
+    .grid .tablet-to-twentyfive:nth-child(4n + 4) {
       margin-right: 0; }
-    .grid .tablet-to-twentyfive:nth-of-type(4n + 1) {
+    .grid .tablet-to-twentyfive:nth-child(4n + 1) {
       clear: left; }
     .grid .tablet-to-twentyfive.first {
       margin-left: 28%; }
     .grid .tablet-to-twentyfive.only {
       margin-left: 76%;
       margin-right: 0; }
-    .grid .tablet-to-twentyfive.firstonly {
+    .grid .tablet-to-twentyfive.first-only {
       margin-left: 28%;
       margin-right: 72%; }
   .grid .tablet-to-twenty {
-    width: 16%;
+    width: 18%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-twenty:nth-of-type(5n + 5) {
+    .grid .tablet-to-twenty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .tablet-to-twenty:nth-of-type(5n + 1) {
+    .grid .tablet-to-twenty:nth-child(5n + 1) {
       clear: left; }
     .grid .tablet-to-twenty.first {
       margin-left: 23.2%; }
     .grid .tablet-to-twenty.only {
       margin-left: 80.8%;
       margin-right: 0; }
-    .grid .tablet-to-twenty.firstonly {
+    .grid .tablet-to-twenty.first-only {
       margin-left: 23.2%;
       margin-right: 76.8%; }
   .grid .tablet-to-ten {
-    width: 6%;
+    width: 8%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .tablet-to-ten:nth-of-type(10n + 10) {
+    .grid .tablet-to-ten:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .tablet-to-ten:nth-of-type(10n + 1) {
+    .grid .tablet-to-ten:nth-child(10n + 1) {
       clear: left; }
     .grid .tablet-to-ten.first {
       margin-left: 13.6%; }
     .grid .tablet-to-ten.only {
       margin-left: 90.4%;
       margin-right: 0; }
-    .grid .tablet-to-ten.firstonly {
+    .grid .tablet-to-ten.first-only {
       margin-left: 13.6%;
       margin-right: 86.4%; }
   .grid .tablet-to-ninety,
@@ -984,211 +984,211 @@ footer {
   .grid .phone-to-hundred {
     width: 100%; }
   .grid .phone-to-ninety {
-    width: 54%;
+    width: 72%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-ninety:nth-of-type(10n + 10) {
+    .grid .phone-to-ninety:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .phone-to-ninety:nth-of-type(10n + 1) {
+    .grid .phone-to-ninety:nth-child(10n + 1) {
       clear: left; }
     .grid .phone-to-ninety.first {
       margin-left: 90.4%; }
     .grid .phone-to-ninety.only {
       margin-left: 13.6%;
       margin-right: 0; }
-    .grid .phone-to-ninety.firstonly {
+    .grid .phone-to-ninety.first-only {
       margin-left: 90.4%;
       margin-right: 9.6%; }
   .grid .phone-to-eighty {
-    width: 64%;
+    width: 72%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-eighty:nth-of-type(5n + 5) {
+    .grid .phone-to-eighty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .phone-to-eighty:nth-of-type(5n + 1) {
+    .grid .phone-to-eighty:nth-child(5n + 1) {
       clear: left; }
     .grid .phone-to-eighty.first {
       margin-left: 80.8%; }
     .grid .phone-to-eighty.only {
       margin-left: 23.2%;
       margin-right: 0; }
-    .grid .phone-to-eighty.firstonly {
+    .grid .phone-to-eighty.first-only {
       margin-left: 80.8%;
       margin-right: 19.2%; }
   .grid .phone-to-seventyfive {
-    width: 63%;
+    width: 69%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-seventyfive:nth-of-type(4n + 4) {
+    .grid .phone-to-seventyfive:nth-child(4n + 4) {
       margin-right: 0; }
-    .grid .phone-to-seventyfive:nth-of-type(4n + 1) {
+    .grid .phone-to-seventyfive:nth-child(4n + 1) {
       clear: left; }
     .grid .phone-to-seventyfive.first {
       margin-left: 76%; }
     .grid .phone-to-seventyfive.only {
       margin-left: 28%;
       margin-right: 0; }
-    .grid .phone-to-seventyfive.firstonly {
+    .grid .phone-to-seventyfive.first-only {
       margin-left: 76%;
       margin-right: 24%; }
   .grid .phone-to-seventy {
-    width: 42%;
+    width: 56%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-seventy:nth-of-type(10n + 10) {
+    .grid .phone-to-seventy:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .phone-to-seventy:nth-of-type(10n + 1) {
+    .grid .phone-to-seventy:nth-child(10n + 1) {
       clear: left; }
     .grid .phone-to-seventy.first {
       margin-left: 71.2%; }
     .grid .phone-to-seventy.only {
       margin-left: 32.8%;
       margin-right: 0; }
-    .grid .phone-to-seventy.firstonly {
+    .grid .phone-to-seventy.first-only {
       margin-left: 71.2%;
       margin-right: 28.8%; }
   .grid .phone-to-sixtysix {
-    width: 58.66667%;
+    width: 62.66667%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-sixtysix:nth-of-type(3n + 3) {
+    .grid .phone-to-sixtysix:nth-child(3n + 3) {
       margin-right: 0; }
-    .grid .phone-to-sixtysix:nth-of-type(3n + 1) {
+    .grid .phone-to-sixtysix:nth-child(3n + 1) {
       clear: left; }
     .grid .phone-to-sixtysix.first {
       margin-left: 68%; }
     .grid .phone-to-sixtysix.only {
       margin-left: 36%;
       margin-right: 0; }
-    .grid .phone-to-sixtysix.firstonly {
+    .grid .phone-to-sixtysix.first-only {
       margin-left: 68%;
       margin-right: 32%; }
   .grid .phone-to-sixty {
-    width: 48%;
+    width: 54%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-sixty:nth-of-type(5n + 5) {
+    .grid .phone-to-sixty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .phone-to-sixty:nth-of-type(5n + 1) {
+    .grid .phone-to-sixty:nth-child(5n + 1) {
       clear: left; }
     .grid .phone-to-sixty.first {
       margin-left: 61.6%; }
     .grid .phone-to-sixty.only {
       margin-left: 42.4%;
       margin-right: 0; }
-    .grid .phone-to-sixty.firstonly {
+    .grid .phone-to-sixty.first-only {
       margin-left: 61.6%;
       margin-right: 38.4%; }
   .grid .phone-to-fifty {
-    width: 46%;
+    width: 48%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-fifty:nth-of-type(2n + 2) {
+    .grid .phone-to-fifty:nth-child(2n + 2) {
       margin-right: 0; }
-    .grid .phone-to-fifty:nth-of-type(2n + 1) {
+    .grid .phone-to-fifty:nth-child(2n + 1) {
       clear: left; }
     .grid .phone-to-fifty.first {
       margin-left: 52%; }
     .grid .phone-to-fifty.only {
       margin-left: 52%;
       margin-right: 0; }
-    .grid .phone-to-fifty.firstonly {
+    .grid .phone-to-fifty.first-only {
       margin-left: 52%;
       margin-right: 48%; }
   .grid .phone-to-forty {
-    width: 32%;
+    width: 36%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-forty:nth-of-type(5n + 5) {
+    .grid .phone-to-forty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .phone-to-forty:nth-of-type(5n + 1) {
+    .grid .phone-to-forty:nth-child(5n + 1) {
       clear: left; }
     .grid .phone-to-forty.first {
       margin-left: 42.4%; }
     .grid .phone-to-forty.only {
       margin-left: 61.6%;
       margin-right: 0; }
-    .grid .phone-to-forty.firstonly {
+    .grid .phone-to-forty.first-only {
       margin-left: 42.4%;
       margin-right: 57.6%; }
   .grid .phone-to-thirtythree {
-    width: 29.33333%;
+    width: 31.33333%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-thirtythree:nth-of-type(3n + 3) {
+    .grid .phone-to-thirtythree:nth-child(3n + 3) {
       margin-right: 0; }
-    .grid .phone-to-thirtythree:nth-of-type(3n + 1) {
+    .grid .phone-to-thirtythree:nth-child(3n + 1) {
       clear: left; }
     .grid .phone-to-thirtythree.first {
       margin-left: 36%; }
     .grid .phone-to-thirtythree.only {
       margin-left: 68%;
       margin-right: 0; }
-    .grid .phone-to-thirtythree.firstonly {
+    .grid .phone-to-thirtythree.first-only {
       margin-left: 36%;
       margin-right: 64%; }
   .grid .phone-to-thirty {
-    width: 18%;
+    width: 24%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-thirty:nth-of-type(10n + 10) {
+    .grid .phone-to-thirty:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .phone-to-thirty:nth-of-type(10n + 1) {
+    .grid .phone-to-thirty:nth-child(10n + 1) {
       clear: left; }
     .grid .phone-to-thirty.first {
       margin-left: 32.8%; }
     .grid .phone-to-thirty.only {
       margin-left: 71.2%;
       margin-right: 0; }
-    .grid .phone-to-thirty.firstonly {
+    .grid .phone-to-thirty.first-only {
       margin-left: 32.8%;
       margin-right: 67.2%; }
   .grid .phone-to-twentyfive {
-    width: 21%;
+    width: 23%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-twentyfive:nth-of-type(4n + 4) {
+    .grid .phone-to-twentyfive:nth-child(4n + 4) {
       margin-right: 0; }
-    .grid .phone-to-twentyfive:nth-of-type(4n + 1) {
+    .grid .phone-to-twentyfive:nth-child(4n + 1) {
       clear: left; }
     .grid .phone-to-twentyfive.first {
       margin-left: 28%; }
     .grid .phone-to-twentyfive.only {
       margin-left: 76%;
       margin-right: 0; }
-    .grid .phone-to-twentyfive.firstonly {
+    .grid .phone-to-twentyfive.first-only {
       margin-left: 28%;
       margin-right: 72%; }
   .grid .phone-to-twenty {
-    width: 16%;
+    width: 18%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-twenty:nth-of-type(5n + 5) {
+    .grid .phone-to-twenty:nth-child(5n + 5) {
       margin-right: 0; }
-    .grid .phone-to-twenty:nth-of-type(5n + 1) {
+    .grid .phone-to-twenty:nth-child(5n + 1) {
       clear: left; }
     .grid .phone-to-twenty.first {
       margin-left: 23.2%; }
     .grid .phone-to-twenty.only {
       margin-left: 80.8%;
       margin-right: 0; }
-    .grid .phone-to-twenty.firstonly {
+    .grid .phone-to-twenty.first-only {
       margin-left: 23.2%;
       margin-right: 76.8%; }
   .grid .phone-to-ten {
-    width: 6%;
+    width: 8%;
     margin-left: 0;
     margin-right: 4%; }
-    .grid .phone-to-ten:nth-of-type(10n + 10) {
+    .grid .phone-to-ten:nth-child(10n + 10) {
       margin-right: 0; }
-    .grid .phone-to-ten:nth-of-type(10n + 1) {
+    .grid .phone-to-ten:nth-child(10n + 1) {
       clear: left; }
     .grid .phone-to-ten.first {
       margin-left: 13.6%; }
     .grid .phone-to-ten.only {
       margin-left: 90.4%;
       margin-right: 0; }
-    .grid .phone-to-ten.firstonly {
+    .grid .phone-to-ten.first-only {
       margin-left: 13.6%;
       margin-right: 86.4%; } }
 @media (max-width: 37.5em) {
@@ -1612,10 +1612,9 @@ body {
   body {
     font-size: 137.5%;
     width: 80%; } }
-@media (max-width: 64.312em) {
+@media (max-width: 25em) {
   body {
-    font-size: 125%;
-    width: 85%; } }
+    font-size: 100%; } }
 @media (max-width: 37.5em) {
   body {
     font-size: 112.5%;
@@ -1632,6 +1631,7 @@ body {
 
   h5 {
     font-size: 1.375em; } }
-@media (max-width: 25em) {
+@media (max-width: 64.312em) {
   body {
-    font-size: 100%; } }
+    font-size: 125%;
+    width: 85%; } }

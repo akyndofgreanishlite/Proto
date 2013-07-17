@@ -117,20 +117,20 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
 //     column-gap:  .75em;
 // }
 
-// Fix $colSpan and $gutter propogation. 
+// These mixins support the in-progress dynamic grid. How these collapse automatically as column narrows still needs to be added/defined.
 
 @mixin width($colCount: 2, $colSpan: 1, $gutter: 4%) {
-	width: $colSpan * ((100% - ($gutter * $colCount)) / $colCount);
+	width: $colSpan * ((100% - (($gutter / 2) * $colCount)) / $colCount);
 	margin-left: 0;
 	margin-right: $gutter;
-
-	&:nth-of-type(#{$colCount}n + #{$colCount}) {
+	
+	&:nth-child(#{$colCount}n + #{$colCount}) {
 		margin-right: 0;
 		// background-color: teal !important;
 	}
-
-	&:nth-of-type(#{$colCount}n + 1) {
-		clear: left;
+	
+	&:nth-child(#{$colCount}n + 1) {
+		clear: left; // Should this be right?
 	}
 }
 
@@ -143,7 +143,7 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
 	margin-right: 0;
 }
 
-@mixin firstonly($colCount: 2, $colSpan: 1, $gutter: 4%) {
+@mixin first-only($colCount: 2, $colSpan: 1, $gutter: 4%) {
 	margin-left: $gutter + ($colSpan * ((100% - $gutter) / $colCount));
 	margin-right: 100% - ($gutter + ($colSpan * ((100% - $gutter) / $colCount)));
 }
@@ -159,7 +159,7 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
 		@include only($colCount, $colSpan, $gutter);
 	}
 
-	&.firstonly {
-		@include firstonly($colCount, $colSpan, $gutter);
+	&.first-only {
+		@include first-only($colCount, $colSpan, $gutter);
 	}
 }
