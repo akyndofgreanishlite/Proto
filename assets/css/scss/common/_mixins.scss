@@ -120,7 +120,7 @@ $prefix-for-spec:      true !default; // required for keyframe mixin
 // These mixins support the in-progress dynamic grid. How these collapse automatically as column narrows still needs to be added/defined.
 
 @mixin width($colCount: 2, $colSpan: 1, $gutter: 4%) {
-	width: $colSpan * ((100% - (($gutter / 2) * $colCount)) / $colCount);
+	width: $colSpan * ((100% - ($gutter * ($colCount - 1))) / $colCount);
 	margin-left: 0;
 	margin-right: $gutter;
 	
